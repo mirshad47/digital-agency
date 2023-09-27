@@ -194,3 +194,31 @@
     width: 50%;
     margin: 60px;
 }
+
+
+.call-icons{
+    width: 80px;
+}
+
+.phone-call{
+    display: flex;
+    border-right: 2px solid black;
+}
+
+
+.appointment-section{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: red;
+    padding: 10px;
+    margin: auto;
+    border-radius: 25px;
+    margin-top: -60px;
+}
+
+.appointment-dec{
+    width: 30%;
+}
