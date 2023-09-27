@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    border: 1px solid red;
 }
 
 
@@ -77,12 +78,14 @@
 
 
 .service-container{
-    width: 100%;
+    width: 98.2%;
     height: 100vh;
     background-image: url(asset/image/footer-bg.png),linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.9));
     background-blend-mode: overlay;
     color: aliceblue;
     padding: 15px;
+    display: flex;
+    align-items: center; 
     
 }
 
@@ -114,6 +117,8 @@
 
 .author-details{
     display: flex;
+    align-items: center;
+    margin-top: 30px;
 }
 
 .service-list{
@@ -125,10 +130,67 @@
 .author-image{
     display: flex;
     align-items: center;
+    padding: 10px;
+    border-right: 2px solid red;
+    
+}
+
+
+.more-details{
+    padding: 20px;
+    
+}
+
+.author-image h4{
+    padding: 20px;
+    font-size: 18px;
 }
 
 
 .author-img-main{
     border-radius: 50%;
     
+
+}
+
+
+.service-up{
+    display: flex;
+}
+
+
+.service{
+    padding: 30px;
+    background-color: aliceblue;
+    box-shadow: 4px 4px 8px gray;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+
+.service-logo{
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+
+
+.service-down{
+    display: flex;
+}
+
+
+/* .service-right-container{
+    width: 100%;
+    margin: auto;
+} */
+
+.service-left-container{
+    width: 50%;
+    margin: 60px;
 }
